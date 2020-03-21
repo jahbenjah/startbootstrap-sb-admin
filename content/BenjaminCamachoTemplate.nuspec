@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+	<metadata>
+		<id>BenjaminCamachoCastro</id>
+		<version>0.0.1</version>
+		<title>Benjamin.camacho.Template</title>
+		<license type="file">LICENSE</license>
+		<description>
+		  Plantilla de prueba ASP.NET Core Bootstrap 4
+		</description>
+			<projectUrl>https://github.com/damienbod/IdentityServer4AspNetCoreIdentityTemplate</projectUrl>
+		<authors>Benjamin Camacho</authors>
+		<owners>jahbenjah</owners>
+		<iconUrl>http://www.gravatar.com/avatar/61d005637f57b5c3da8ba662cf04a9d6.png</iconUrl>
+		<language>es-MX</language>
+		<tags>ASP.NET Core</tags>
+		<requireLicenseAcceptance>false</requireLicenseAcceptance>
+		<copyright>2020 jahbenja</copyright>
+		<summary>Esta platilla es una prueba</summary>
+		<releaseNotes>prueba</releaseNotes>
+		<repository type="git" url="https://github.com/jahbenjah/template" />
+		<packageTypes>
+			<packageType name="Template" />
+		</packageTypes>
+	</metadata>
+</package>
+
+    
+
+	

@@ -1,0 +1,14 @@
+{
+    "author": "jahbenjah",
+    "classifications": [
+        "Benjamin Camacho "
+    ],
+    "name": "Benjamin Camacho Template",
+    "identity": "BenjaminCamachoTemplate",
+    "shortName": "bcc",
+    "tags": {
+        "language": "C#"
+    },
+    "sourceName": "StsServerIdentity",
+    "preferNameDirectory": "true"
+}
