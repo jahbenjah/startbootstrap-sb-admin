@@ -28,6 +28,42 @@ namespace BenjaminCamacho.Controllers
             return View();
         }
 
+        public IActionResult Charts()
+        {
+            return View();
+        }
+
+        public IActionResult Tables()
+        {
+            return View();
+        }
+
+         public IActionResult Login()
+        {
+            return View();
+        }
+
+        public IActionResult Register()
+        {
+            return View();
+        }
+
+         public IActionResult _401()
+        {
+            return View();
+        }
+
+         public IActionResult _404()
+        {
+            return View();
+        }
+
+          public IActionResult _500()
+        {
+            return View();
+        }
+
+
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()
         {
