@@ -38,7 +38,7 @@ namespace BenjaminCamacho.Controllers
             return View();
         }
 
-         public IActionResult Login()
+        public IActionResult Login()
         {
             return View();
         }
@@ -48,17 +48,27 @@ namespace BenjaminCamacho.Controllers
             return View();
         }
 
-         public IActionResult _401()
+        public IActionResult _401()
         {
             return View();
         }
 
-         public IActionResult _404()
+        public IActionResult _404()
         {
             return View();
         }
 
-          public IActionResult _500()
+        public IActionResult _500()
+        {
+            return View();
+        }
+
+        public IActionResult LayoutStatic()
+        {
+            return View();
+        }
+
+        public IActionResult SidenavLight()
         {
             return View();
         }
