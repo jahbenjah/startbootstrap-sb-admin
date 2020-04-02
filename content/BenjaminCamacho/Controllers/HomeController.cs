@@ -32,6 +32,11 @@ namespace BenjaminCamacho.Controllers
             return View();
         }
 
+        public IActionResult Terms()
+        {
+            return View();
+        }
+
         public IActionResult Charts()
         {
             return View();
