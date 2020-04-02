@@ -6,21 +6,25 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using BenjaminCamacho.Models;
+using BenjaminCamacho.Services;
 
 namespace BenjaminCamacho.Controllers
 {
     public class HomeController : Controller
     {
         private readonly ILogger<HomeController> _logger;
+        private readonly IEmployyeService employyeService;
 
-        public HomeController(ILogger<HomeController> logger)
+        public HomeController(ILogger<HomeController> logger, IEmployyeService employyeService)
         {
             _logger = logger;
+            this.employyeService = employyeService;
         }
 
         public IActionResult Index()
         {
-            return View();
+            var empleados = employyeService.GetAll();
+            return View(empleados);
         }
 
         public IActionResult Privacy()
@@ -35,7 +39,8 @@ namespace BenjaminCamacho.Controllers
 
         public IActionResult Tables()
         {
-            return View();
+            var empleados = employyeService.GetAll();
+            return View(empleados);
         }
 
         public IActionResult Login()
