@@ -58,6 +58,11 @@ namespace BenjaminCamacho.Controllers
             return View();
         }
 
+        public IActionResult ForgotPassword()
+        {
+            return View();
+        }
+
         public IActionResult _401()
         {
             return View();
