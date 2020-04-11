@@ -2,14 +2,14 @@
 
   <PropertyGroup>
     <TargetFramework>netcoreapp3.1</TargetFramework>
-     <Version>4.0.1</Version>
-    <Description>IdentityServer4 template with ASP.NET Core 3.1 and ASP.NET Core Identity</Description>
-    <PackageProjectUrl>https://github.com/damienbod/IdentityServer4AspNetCoreIdentityTemplate</PackageProjectUrl>
+     <Version>0.0.1</Version>
+    <Description>Plantilla de administración con ASP.NET Core 3.1</Description>
+    <PackageProjectUrl>https://github.com/jahbenjah/startbootstrap-sb-admin</PackageProjectUrl>
     <PackageIconUrl>http://www.gravatar.com/avatar/61d005637f57b5c3da8ba662cf04a9d6.png</PackageIconUrl>
-    <RepositoryUrl>https://github.com/damienbod/IdentityServer4AspNetCoreIdentityTemplate</RepositoryUrl>
+    <RepositoryUrl>https://github.com/jahbenjah/startbootstrap-sb-admin</RepositoryUrl>
     <PackageLicenseFile>LICENSE</PackageLicenseFile>
-    <PackageTags>oidc identityserver4 identity aspnetcore</PackageTags>
-    <PackageReleaseNotes>Added support for FIDO2 MFA, Support for custom namespaces, Allow clients to request MFA requirement, added amr claim</PackageReleaseNotes>
+    <PackageTags>mvc admin aspnetcore</PackageTags>
+    <PackageReleaseNotes>Versión inicial</PackageReleaseNotes>
   </PropertyGroup>
 
 </Project>

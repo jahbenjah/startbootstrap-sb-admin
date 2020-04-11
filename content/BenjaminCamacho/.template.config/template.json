@@ -1,14 +1,14 @@
 {
     "author": "jahbenjah",
     "classifications": [
-        "Benjamin Camacho "
+        "Web","Mvc","Admin"
     ],
-    "name": "Benjamin Camacho Template",
-    "identity": "BenjaminCamachoTemplate",
-    "shortName": "bcc",
+    "name": "Admin Template",
+    "identity": "BenjaminCamacho.Admin.Mvc",
+    "shortName": "admin",
     "tags": {
         "language": "C#"
     },
-    "sourceName": "StsServerIdentity",
+    "sourceName": "BenjaminCamacho.Admin",
     "preferNameDirectory": "true"
 }
