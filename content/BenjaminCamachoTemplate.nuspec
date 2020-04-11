@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
 	<metadata>
-		<id>BenjaminCamacho</id>
+		<id>BenjaminCamacho.Templates.Admin</id>
 		<version>0.0.1</version>
-		<title>BenjaminCamacho.Adm.Mvc</title>
+		<title>BenjaminCamacho.Templates.Admin</title>
 		<license type="file">LICENSE</license>
 		<description>
 		  Plantilla Admin MVC ASP.NET Core Bootstrap 4
@@ -15,16 +15,12 @@
 		<language>es-MX</language>
 		<tags>ASP.NET Core</tags>
 		<requireLicenseAcceptance>false</requireLicenseAcceptance>
-		<copyright>2020 jahbenjah</copyright>
-		<summary>Esta platilla es una prueba</summary>
-		<releaseNotes>prueba</releaseNotes>
+		<copyright>2020 Benjamin Camacho</copyright>
+		<summary>Plantilla ASP.NET Core con un panel de administración usando Bootstrap 4 </summary>
+		<releaseNotes>Primer liberación</releaseNotes>
 		<repository type="git" url="https://github.com/jahbenjah/startbootstrap-sb-admin" />
 		<packageTypes>
 			<packageType name="Template" />
 		</packageTypes>
 	</metadata>
 </package>
-
-    
-
-	
