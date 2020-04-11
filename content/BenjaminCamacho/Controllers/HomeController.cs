@@ -48,20 +48,6 @@ namespace BenjaminCamacho.Controllers
             return View(empleados);
         }
 
-        public IActionResult Login()
-        {
-            return View();
-        }
-
-        public IActionResult Register()
-        {
-            return View();
-        }
-
-        public IActionResult ForgotPassword()
-        {
-            return View();
-        }
 
         public IActionResult _401()
         {

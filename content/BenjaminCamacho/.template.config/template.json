@@ -4,7 +4,7 @@
         "Web","Mvc","Admin"
     ],
     "name": "Admin Template",
-    "identity": "BenjaminCamacho.Admin.Mvc",
+    "identity": "Benjamin.Camacho.Templates.Mvc.Admin",
     "shortName": "admin",
     "tags": {
         "language": "C#"

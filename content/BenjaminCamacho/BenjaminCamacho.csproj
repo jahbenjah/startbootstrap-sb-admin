@@ -5,7 +5,7 @@
      <Version>0.0.1</Version>
     <Description>Plantilla de administración con ASP.NET Core 3.1</Description>
     <PackageProjectUrl>https://github.com/jahbenjah/startbootstrap-sb-admin</PackageProjectUrl>
-    <PackageIconUrl>http://www.gravatar.com/avatar/61d005637f57b5c3da8ba662cf04a9d6.png</PackageIconUrl>
+    <PackageIconUrl>https://s.gravatar.com/avatar/17aee09e8da739c0ea4f44f72840a288?s=80</PackageIconUrl>
     <RepositoryUrl>https://github.com/jahbenjah/startbootstrap-sb-admin</RepositoryUrl>
     <PackageLicenseFile>LICENSE</PackageLicenseFile>
     <PackageTags>mvc admin aspnetcore</PackageTags>
