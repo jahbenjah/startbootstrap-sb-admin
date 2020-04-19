@@ -2,13 +2,13 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
 	<metadata>
 		<id>BenjaminCamacho.Templates.Admin</id>
-		<version>0.0.2</version>
+		<version>0.0.3</version>
 		<title>BenjaminCamacho.Templates.Admin</title>
 		<license type="file">LICENSE</license>
 		<description>
 		  Plantilla Admin MVC ASP.NET Core Bootstrap 4
 		</description>
-			<projectUrl>https://github.com/jahbenjah/startbootstrap-sb-admin</projectUrl>
+			<projectUrl>https://aspnetcoremaster.com/plantillas</projectUrl>
 		<authors>Benjamin Camacho</authors>
 		<owners>jahbenjah</owners>
 		<iconUrl>https://s.gravatar.com/avatar/17aee09e8da739c0ea4f44f72840a288?s=80</iconUrl>
@@ -17,7 +17,7 @@
 		<requireLicenseAcceptance>false</requireLicenseAcceptance>
 		<copyright>2020 Benjamin Camacho</copyright>
 		<summary>Plantilla ASP.NET Core con un panel de administración usando Bootstrap 4 </summary>
-		<releaseNotes>Se agregan vistas de inicio de sesión.</releaseNotes>
+		<releaseNotes>Se agregan Identity.</releaseNotes>
 		<repository type="git" url="https://github.com/jahbenjah/startbootstrap-sb-admin" />
 		<packageTypes>
 			<packageType name="Template" />
