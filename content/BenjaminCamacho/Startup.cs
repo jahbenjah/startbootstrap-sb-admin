@@ -37,6 +37,7 @@ namespace BenjaminCamacho
 
             services.AddTransient<IEmployyeService, EmployeeServices>();
             services.AddTransient<IEmailSender, EmailSender>();
+            services.Configure<EmailSenderOptions>(Configuration.GetSection("EmailSenderOptions"));
             services.AddControllersWithViews();
         }
 

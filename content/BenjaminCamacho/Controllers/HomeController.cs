@@ -7,6 +7,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using BenjaminCamacho.Models;
 using BenjaminCamacho.Services;
+using Microsoft.AspNetCore.Authorization;
 
 namespace BenjaminCamacho.Controllers
 {
@@ -21,6 +22,7 @@ namespace BenjaminCamacho.Controllers
             this.employyeService = employyeService;
         }
 
+        [Authorize]
         public IActionResult Index()
         {
             var empleados = employyeService.GetAll();
