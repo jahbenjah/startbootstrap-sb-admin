@@ -11,6 +11,7 @@ using Microsoft.AspNetCore.Authorization;
 
 namespace BenjaminCamacho.Controllers
 {
+    [Authorize]
     public class HomeController : Controller
     {
         private readonly ILogger<HomeController> _logger;
@@ -22,18 +23,19 @@ namespace BenjaminCamacho.Controllers
             this.employyeService = employyeService;
         }
 
-        [Authorize]
         public IActionResult Index()
         {
             var empleados = employyeService.GetAll();
             return View(empleados);
         }
 
+        [AllowAnonymous]
         public IActionResult Privacy()
         {
             return View();
         }
 
+        [AllowAnonymous]
         public IActionResult Terms()
         {
             return View();
@@ -49,7 +51,6 @@ namespace BenjaminCamacho.Controllers
             var empleados = employyeService.GetAll();
             return View(empleados);
         }
-
 
         public IActionResult _401()
         {
@@ -77,6 +78,7 @@ namespace BenjaminCamacho.Controllers
         }
 
 
+        [AllowAnonymous]
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()
         {
